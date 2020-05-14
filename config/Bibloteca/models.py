@@ -8,7 +8,7 @@ class Autor(models.Model):
     nombre = models.CharField(max_length=25)
 
     def __str__(self):
-        return "Autor {}  {} ".format(self.codigo, self.nombre)
+        return "Autor {} ".format(self.nombre)
 
 class Libro(models.Model):
     codigo = models.AutoField(primary_key=True)
@@ -18,7 +18,7 @@ class Libro(models.Model):
     cantidadPaginas = models.IntegerField()
 
     def __str__(self):
-        return "Libro {} {} {} {} {}".format(self.codigo, self.codAutor, self.titulo, self.editorial,self.cantidadPaginas)
+        return "Libro {}".format(self.titulo)
 
 class Ejemplar(models.Model):
     codigo = models.AutoField(primary_key=True)
@@ -27,7 +27,7 @@ class Ejemplar(models.Model):
     localizacion = models.CharField(max_length=25)
     
     def __str__(self):
-        return "Ejemplar {} {} {} {}".format(self.codigo, self.codUsuario, self.codLibro, self.localizacion) 
+        return "Ejemplar {}".format(self.codLibro) 
 
 class Usuario(models.Model):
     codigo = models.AutoField(primary_key=True)
@@ -37,5 +37,5 @@ class Usuario(models.Model):
     ejemplares = models.ManyToManyField(Ejemplar)
 
     def __str__(self):
-        return "Usuario {} {} {} {}".format(self.codigo, self.nombre, self.telefono, self.direccion)
+        return "Usuario {}".format(self.nombre, self.ejemplares)
 
