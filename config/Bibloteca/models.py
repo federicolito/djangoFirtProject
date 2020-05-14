@@ -25,6 +25,7 @@ class Usuario(models.Model):
     nombre = models.CharField(max_length=25)
     telefono = models.CharField(max_length=25)
     direccion = models.CharField(max_length=25)
+    ejemplares = models.ManyToManyField(Ejemplar,on_delete=models.CASCADE, default="")
 
     def __str__(self):
         return "Usuario {} {} {} {}".format(self.codigo, self.nombre, self.telefono, self.direccion)
