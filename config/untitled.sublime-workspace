@@ -1,0 +1,711 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ejemplar",
+				"Ejemplar"
+			],
+			[
+				"mode",
+				"Model"
+			],
+			[
+				"a",
+				"AutoField"
+			],
+			[
+				"Auto",
+				"AutoField"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"w",
+				"wIndex"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"cal",
+				"Calculadora"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"email",
+				"emailarray"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"imprimir",
+				"imprimirDatos"
+			],
+			[
+				"ret",
+				"ret_str"
+			],
+			[
+				"de",
+				"debePagarImpuestos"
+			],
+			[
+				"su",
+				"sueldo"
+			],
+			[
+				"nuer",
+				"numero1"
+			],
+			[
+				"numero",
+				"numero1"
+			],
+			[
+				"mul",
+				"multiplicacion"
+			],
+			[
+				"numer",
+				"numero2"
+			],
+			[
+				"nume",
+				"numero1"
+			],
+			[
+				"d",
+				"Division"
+			],
+			[
+				"i",
+				"__init__"
+			],
+			[
+				"e",
+				"equilatero"
+			],
+			[
+				"lado",
+				"ladoMayor"
+			],
+			[
+				"can",
+				"cantVocals"
+			],
+			[
+				"voa",
+				"cantVocals"
+			],
+			[
+				"ticke",
+				"tickets"
+			],
+			[
+				"tic",
+				"ticket"
+			],
+			[
+				"t",
+				"tickets"
+			],
+			[
+				"co",
+				"constructor"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"margin-t",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"ca",
+				"cantrows"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"le",
+				"lenght"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"n",
+				"nacimiento"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"sp",
+				"column-span\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"onmouse",
+				"onmouseleave\tAttr"
+			],
+			[
+				"cua",
+				"cuadrado"
+			],
+			[
+				"onmouseo",
+				"onmouseover\tAttr"
+			],
+			[
+				"poi",
+				"position\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"B",
+				"B"
+			],
+			[
+				"A",
+				"A"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Bibloteca/models.py",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/env python\n\"\"\"Django's command-line utility for administrative tasks.\"\"\"\nimport os\nimport sys\n\n\ndef main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc\n    execute_from_command_line(sys.argv)\n\n\nif __name__ == '__main__':\n    main()\n",
+			"file": "manage.py",
+			"file_size": 626,
+			"file_write_time": 132339595796386514,
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nDjangoNoseTestRunner\n--------------------\n\n  # DjangoNoseTestRunner\n  \n  Do you hate waiting seconds for the complete test suite to finish when all\n  you're trying to do is get this one test to pass? So do we.\n  \n  DjangoNoseTestRunner is a plugin for Sublime Text 2/3 that allows you to run\n  the test under cursor in the currently opened test file.\n  \n  The plugin supports running tests using `django-nose` (recommended) or\n  the standard Django test runner.\n  \n  ## Example usage\n  \n  Open one of your test files, navigate to a test function you want to run,\n  and hit Ctrl-T. Look at the output console for the test results.\n  \n  ## Installation\n  \n  * Download the plugin from GitHub - here's a link to the\n    [current master](https://github.com/dobarkod/DjangoNoseTestRunner/archive/master.zip).\n  * Unzip the plugin to your Sublime Text Packages directory\n    (eg. `~/.config/sublime-text-2/Packages/` for Sublime Text 2 on Linux)\n  \n  ## Configuration\n  \n  If you're using Virtualenv, have separate Django settings module for tests or\n  want to use nose, you'll want to add a per-project configuration so that the\n  plugin can run your tests properly.\n  \n  To add the per-project configuration, open your project file (Project->Edit\n  in the menu), and change it to looks like this:\n  \n      {\n          \"folders\": [ ... ],\n          \"settings\":\n          {\n              \"django-nose-test\": {\n                  \"python\": \"/path/to/your/virtualenv/bin/python\",\n                  \"django-settings\": \"myproject.settings.test\",\n                  \"doted-notation\": true,  // optional and only used if \"use-nose\" is false\n                  \"apps-dir\": \"my_apps\",  // optional and only used if \"doted-notation\" is true\n                  \"use-nose\": true,\n                  \"nose-options\": [\"--nocapture\"] // optional and only used if use-nose is true\n              }\n          }\n      }\n  \n  The `django-nose-test` dictionary are the settings for DjangoNoseTestRunner.\n  \n  The `doted-notation` required for Django 1.6 or [django-discover-runner](https://github.com/jezdez/django-discover-runner).\n  \n  ## Usage\n  \n  Plugin can run a single test, multiple tests, entire test case or the entire\n  file.\n  \n  To run a single test, just position your cursor somewhere in the test function\n  body and hit Ctrl-T.\n  \n  To run multiple tests, select (any) bit of text from each of the functions\n  you want to run and hit Ctrl-T. The functions can be in the same test\n  case class, or in the separate classes.\n  \n  You can also run the entire test case (all the test functions in the class),\n  or multiple test cases, by selecting (any) bit of text from the class body\n  that's *not* in the the test function (eg. `class FooTest(TestCase):` lines).\n  \n  If the cursor is not inside any test function or test case class when you hit\n  Ctrl-T, all the test from the file (but just that file) will be run.\n  \n  If you're using nose, the tests are located per-file (as described above). If\n  you're using the standard Django test runner, the tests are per-app (one\n  test method, one TestCase or the entire app test suite).\n  \n  ## License and copyright\n  \n  Copyright &copy; 2013. DjangoNoseTestRunner contributors\n  \n  You can use, modify and distribute this plugin under the terms of the\n  [MIT public license](http://opensource.org/licenses/MIT).\n",
+			"settings":
+			{
+				"buffer_size": 3395,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"pyth",
+				"Build With: Python"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: HTML - Anchor"
+			],
+			[
+				"Snippet:",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"n",
+				"Build: New Build System"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sironi_federico/Documents/djangoProjects/djangoFirtProject/config/config/settings.py",
+		"/home/sironi_federico/Documents/djangoProjects/djangoFirtProject/config/untitled.sublime-project",
+		"/home/sironi_federico/Documents/djangoProjects/djangoFirtProject/untitled.sublime-project",
+		"/home/sironi_federico/Documents/djangoProjects/config/Bibloteca/models.py",
+		"/home/sironi_federico/Documents/djangoProjects/config/config/settings.py",
+		"/home/sironi_federico/Documents/djangoProjects/config/Bibloteca/admin.py",
+		"/home/sironi_federico/Documents/djangoProjects/config/config/urls.py",
+		"/home/sironi_federico/Documents/djangoProjects/config/colegio/models.py",
+		"/home/sironi_federico/Documents/django/config/colegio/admin.py",
+		"/home/sironi_federico/Documents/django/config/colegio/templates/home.html",
+		"/home/sironi_federico/Documents/django/config/colegio/models.py",
+		"/home/sironi_federico/Documents/django/config/colegio/views.py",
+		"/home/sironi_federico/Documents/django/config/config/urls.py",
+		"/home/sironi_federico/Documents/django/config/config/settings.py",
+		"/home/sironi_federico/.virtualenvs/Prueba/bin/preactivate",
+		"/home/sironi_federico/Escritorio/Servidor Dedicado.lnk",
+		"/home/sironi_federico/Documents/django/config/colegio/__init__.py",
+		"/etc/X11/xinit/xinitrc",
+		"/etc/X11/xinit/xserverrc",
+		"/etc/X11/Xreset",
+		"/etc/X11/Xsession",
+		"/etc/init.d/screen-cleanup",
+		"/etc/init.d/acpid",
+		"/etc/init.d/mysql",
+		"/home/sironi_federico/primerProyecto/config/settings.py",
+		"/etc/init.d/mountall-bootclean.sh",
+		"/usr/lib/xorg/modules/drivers/amdgpu_drv.so",
+		"/etc/init.d/networking",
+		"/etc/init.d/dns-clean",
+		"/etc/init.d/openvpn",
+		"/home/sironi_federico/.icons/Cupertino/index.theme",
+		"/usr/bin/i386",
+		"/home/sironi_federico/arduino-1.8.12/uninstall.sh",
+		"/home/sironi_federico/.ICEauthority",
+		"/home/sironi_federico/.Xauthority",
+		"/home/sironi_federico/Escritorio/teeworlds_srv.desktop",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/04_Html + Css + Js/Ejercicio_1/Calculadora.html",
+		"/home/sironi_federico/g203-led/g203-led.py",
+		"/home/sironi_federico/g203-led/README.md",
+		"/home/sironi_federico/Descargas/local-mitm-master/package-lock.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/package.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/index.js",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/standalone/rules.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/standalone/plainHello.js",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/standalone/config.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/plainText/rules.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/plainText/plainHello.js",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/plainText/config.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/json/rules.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/json/jsonHello.js",
+		"/home/sironi_federico/Descargas/local-mitm-master/samples/json/config.json",
+		"/home/sironi_federico/Descargas/local-mitm-master/lib/local-mitm.js",
+		"/home/sironi_federico/Descargas/local-mitm-master/bin/program.js",
+		"/home/sironi_federico/.config/sublime-text-3/Packages/User/untitled.sublime-snippet",
+		"/home/sironi_federico/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/sironi_federico/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/sironi_federico/.teeworlds/ctf.cfg",
+		"/home/sironi_federico/.teeworlds/autoexec.cfg",
+		"/home/sironi_federico/Escritorio/teeworlds.desktop",
+		"/home/sironi_federico/Descargas/zCatch_0-4-8_Linux/zcatch_srv",
+		"/home/sironi_federico/.wine/drive_c/users/Public/Escritorio/HLDS.lnk",
+		"/home/sironi_federico/Descargas/osu!install.exe",
+		"/home/sironi_federico/Escritorio/Cisco Packet Tracer.lnk",
+		"/home/sironi_federico/teeworlds_srv.command",
+		"/usr/share/applications/gnome-info-overview-panel.desktop",
+		"/home/sironi_federico/.teeworlds/ui_settings.json",
+		"/home/sironi_federico/.teeworlds/serverlist.json",
+		"/home/sironi_federico/teeworlds/configure.lua",
+		"/home/sironi_federico/.teeworlds/teeworlds",
+		"/home/sironi_federico/teeworlds.desktop",
+		"/home/sironi_federico/teeworlds (copia).desktop",
+		"/home/sironi_federico/teeworlds.command",
+		"/home/sironi_federico/teeworlds/build/teeworlds_srv.sh",
+		"/home/sironi_federico/teeworlds_srv.sh",
+		"/usr/share/applications/teeworlds.desktop",
+		"/home/sironi_federico/teeworlds/build/teeworlds",
+		"/home/sironi_federico/teeworlds/build/teeworlds_srv",
+		"/home/sironi_federico/teeworlds/build/teeworlds.sh",
+		"/media/sironi_federico/WindowsSecondDisk/Documentos/UnityProyects/_PathToGaia_/Assets/Materials/Deslizante.physicsMaterial2D",
+		"/home/sironi_federico/.local/share/applications/teeworlds.desktop",
+		"/home/sironi_federico/Documentos/minecraft-server/start.sh",
+		"/home/sironi_federico/Descargas/Spigot/run.bat",
+		"/home/sironi_federico/Documentos/minecraft-server/server.properties",
+		"/home/sironi_federico/Descargas/teeworlds-0.6.2-win32/config_directory.bat",
+		"/home/sironi_federico/Descargas/teeworlds-0.6.2-win32/teeworlds_srv.exe",
+		"/home/sironi_federico/.teeworlds/downloadedmaps/Copy love Box_678448ec.map",
+		"/home/sironi_federico/.pencil/config.json",
+		"/home/sironi_federico/Escritorio/ServerTeeworlds/serverconfig.cfg",
+		"/home/sironi_federico/Descargas/teeworlds_srv_smod-master/bam.lua",
+		"/home/sironi_federico/.teeworlds/ServerTeeworlds/DDNet-Server",
+		"/home/sironi_federico/Escritorio/DDNet-13.0.2-linux_x86_64/autoexec_server.cfg",
+		"/home/sironi_federico/Escritorio/DDNet-13.0.2-linux_x86_64/serverconfig.cfg",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 3/css/estilos.css",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 3/Pizzas.html",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 2/Formulario.html",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/Formulario.html",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/css/estilos.css",
+		"/home/sironi_federico/Escritorio/6año/Sistemas y Telecomunicaciones/Cuestionario 2/Cuestionario.txt",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 3/Formulario.html",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 2/action.php",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/action.php",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/action_page.php",
+		"/home/sironi_federico/Descargas/welcome(2).php",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/welcome.php",
+		"/home/sironi_federico/Escritorio/6año/Programacion 3/Html y js/Ejercicio 1/principal.html",
+		"/home/sironi_federico/Escritorio/import matplotlib.py",
+		"/home/sironi_federico/typescript",
+		"/home/sironi_federico/Escritorio/6año/Programacion |||/Python/RepasoPython2.py",
+		"/home/sironi_federico/Escritorio/6año/Programacion |||/Python/RepasoPython.py",
+		"/home/sironi_federico/Escritorio/6año/Python/RepasoPython.py",
+		"/home/sironi_federico/Escritorio/5año/Programacion/javaScript/tp javaScript/javascript.js",
+		"/home/sironi_federico/Escritorio/5año/Programacion/javaScript/trabajo 4/javascript.js",
+		"/home/sironi_federico/Documentos/5año/Programacion/javaScript/trabajo 4/estilo.css",
+		"/home/sironi_federico/Documentos/5año/Programacion/javaScript/trabajo 4/principal.html",
+		"/home/sironi_federico/Documentos/5año/Programacion/javaScript/trabajo 4/javascript.js",
+		"/home/sironi_federico/Documentos/5año/Programacion/javaScript/trabajo 1/javascript.js",
+		"/home/sironi_federico/Documentos/5año/Programacion/javaScript/trabajo 1/principal.html",
+		"/home/sironi_federico/Documentos/5año/informatica/html/javascript_1/estilo.css",
+		"/home/sironi_federico/Documentos/5año/informatica/html/javascript_1/principal.html",
+		"/home/sironi_federico/Documentos/5año/informatica/html/javascript_1/javascript.js",
+		"/home/sironi_federico/Documentos/5año/lengua/contrapuntoParaElHumanoYLaComputadora",
+		"/home/sironi_federico/Documentos/5año/lengua/contrapuntoParaElHumanoYLaComputadora.py"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Bibloteca/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "manage.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								512
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 36.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
