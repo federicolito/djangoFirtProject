@@ -8,7 +8,7 @@ class Autor(models.Model):
     nombre = models.CharField(max_length=25)
 
     def __str__(self):
-        return "Autor {} ".format(self.nombre)
+        return "Autor {} x".format(self.nombre)
 
 class Libro(models.Model):
     codigo = models.AutoField(primary_key=True)
