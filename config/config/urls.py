@@ -21,5 +21,5 @@ from django.urls import path, include
 
 urlpatterns = [
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
-    url(r'^admin/', admin.site.urls),
+    url(r'^', admin.site.urls),
 ]
